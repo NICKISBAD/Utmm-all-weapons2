@@ -1,0 +1,5 @@
+for _,v in pairs(game.Players.LocalPlayer.Weapons:GetDescendants()) do
+if v:IsA("BoolValue") and v.Value == false then
+v.Value = true
+  end
+end
